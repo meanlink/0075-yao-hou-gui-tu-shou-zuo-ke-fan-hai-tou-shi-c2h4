@@ -1,0 +1,5 @@
+.studio-matrix{overflow:auto;}
+.studio-matrix td,.studio-matrix th{white-space:nowrap;}
+.studio-matrix thead{background:var(--s-ink);color:var(--s-panel);}
+.studio-matrix td:nth-last-child(1){font-weight:700;color:var(--s-accent);}
+.pivot-line{border-inline-start:6px solid var(--s-accent);padding:.75rem;font-size:clamp(1rem,2.5vw,1.5rem);margin-top:1rem;background:var(--s-panel);}

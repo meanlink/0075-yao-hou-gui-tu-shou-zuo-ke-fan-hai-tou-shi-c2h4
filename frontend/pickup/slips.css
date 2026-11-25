@@ -1,0 +1,9 @@
+.transfer-list{display:grid;gap:.7rem;}
+.transfer-slip{border:1px solid var(--s-line);background:var(--s-panel);padding:1rem;}
+.transfer-slip header{display:flex;justify-content:space-between;align-items:center;gap:.5rem;border-bottom:1px dashed var(--s-line);margin-bottom:.6rem;}
+.transfer-slip form{display:grid;grid-template-columns:1fr max-content max-content;gap:.4rem;align-items:end;}
+.transfer-slip form p{grid-column:1/-1;}
+.receipts{padding:0;margin:0;list-style:none;}
+.receipts li{display:grid;grid-template-columns:1.3fr 1fr .9fr;gap:.8rem;border-bottom:1px solid var(--s-line);padding:.9rem 0;}
+.receipts small{display:block;}
+@media(max-width:580px){.transfer-slip form{grid-template-columns:1fr;}}
